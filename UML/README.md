@@ -1,4 +1,4 @@
-# MeriseUML
+# UML
 
 ## Table des matière 
 
@@ -8,17 +8,11 @@
 - [Diagrammes d'états](#diagramme-détats)
 - [Diagrammes d'activités](#diagrammes-dactivités)
 - [Diagrammes de séquences](#diagrammes-de-séquences)
+- [Diagrammes de classes](#diagramme-de-classes)
 
 ## Introduction
 
-L'UML (Unit Modelisation Language) est un language de modelisation
-
-
-Maquette
-Diagrammes d'états 
-Diagrammes d'activités
-Diagrammes de sequences
-
+L'UML (Unit Modelisation Language) est un language de modelisation permettant de visualiser l'ensemble de l'application avant de la développer, elle permet d'avoir une vison global du projet et de ensuite pouvoir planifier le projet corrèctement, cela permet aussi de définir le comportement global de l'application.
 
 ## Diagrammes de cas d'utilisations
 
@@ -91,4 +85,9 @@ Ce diagrammes est composant de plusieurs élements :
 - Les objets : les objets sont ceux qui agissent, ils font démarrer la séquence.
 - Les messages : les messages sont envoyés entre les différents objet, ils peuvent être envoyé de façon synchrone ou asynchrone. Il peut éffectuer plusieurs actions (contenu, invocation d'une méthode, création et suppression d'un objet).
 - Les fragments de séquences : regroupement logique représenté par un rectangle, ils permettent de creer des structures conditionnels et des boucles. Ils contiennent des opérendes d'intéractions défini par un opérateur d'intéraction.
+
+# Diagramme de classes
+
+Le diagramme de classes est une modélisation static qui décrit les objets, les individus, les idées et les relations entre chacun.
+Ce diagramme est approprié pour générer du code dans des langages objet.
 
