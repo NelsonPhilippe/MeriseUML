@@ -30,6 +30,7 @@ Le MCD est composé de :
 | **Field Name** | **Data Type** | **Field Length** | **Constraint** | **Description**           |
 | -------------- | ------------- | ---------------- | -------------- | ------------------------- |
 | id             | INTEGER       | 11               | PrimaryKey     | Reservation id            |
+| client_id      | INTEGER       | 11               | PrimaryKey     | Client id                 |
 | price          | DOUBLE        | 11               | NOT NULL       | Reservation price         |
 | start          | VARCHAR       | 50               | NOT NULL       | Resarvation airport start |
 | end            | VARCHAR       | 50               | NOT NULL       | Resarvation airport end   |
@@ -66,3 +67,16 @@ Le MCD est composé de :
 | -------------- | ------------- | ---------------- | -------------- | --------------- |
 | id             | INTEGER       | 11               | PrimaryKey     | Billet id       |
 | id_reservation | INTEGER       | 11               | NOT_NULL       | Reservation id  |
+| id_vol         | INTEGER       | 11               |                | Vol id          |
+
+## MCD
+
+<div>
+    <img src="./MCD.png">
+</div>
+
+## MLD
+
+<div>
+    <img src="./MPD.png">
+</div>

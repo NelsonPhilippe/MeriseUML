@@ -1,10 +1,10 @@
-<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>0</x><y>25</y><w>210</w><h>90</h></coordinates><panel_attributes>Client
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>40</x><y>10</y><w>210</w><h>90</h></coordinates><panel_attributes>Client
 --
 -id: int 
 --
 +getId()
 +reserve()
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>235</y><w>210</w><h>200</h></coordinates><panel_attributes>Reservation
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>220</y><w>210</w><h>200</h></coordinates><panel_attributes>Reservation
 --
 -id: int 
 -price: double
@@ -17,7 +17,7 @@
 +getPassagers()
 +getVols()
 +hasVols()
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>790</x><y>215</y><w>210</w><h>200</h></coordinates><panel_attributes>Passengers
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>830</x><y>200</y><w>210</w><h>200</h></coordinates><panel_attributes>Passengers
 --
 -id: int 
 -name: string
@@ -29,9 +29,9 @@
 +getName()
 +getLastName()
 +getMail()
-+getPhone()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>315</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
++getPhone()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>300</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1..n
-m2=*</panel_attributes><additional_attributes>10;10;170;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>535</y><w>210</w><h>160</h></coordinates><panel_attributes>Vol
+m2=*</panel_attributes><additional_attributes>10;10;170;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>520</y><w>210</w><h>160</h></coordinates><panel_attributes>Vol
 --
 -id: int 
 -aeroport: string
@@ -40,25 +40,25 @@ m2=*</panel_attributes><additional_attributes>10;10;170;10</additional_attribute
 +getPrice()
 +addPassager()
 +getPassagers()
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>415</y><w>210</w><h>100</h></coordinates><panel_attributes>Billet
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>130</x><y>400</y><w>210</w><h>100</h></coordinates><panel_attributes>Billet
 --
 -id: int 
 --
 +getId()
 +getVol()
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>425</y><w>40</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
-m2=*</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>15</y><w>210</w><h>100</h></coordinates><panel_attributes>Agency
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>410</y><w>40</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m2=*</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>0</y><w>210</w><h>100</h></coordinates><panel_attributes>Agency
 --
 -id: int 
 --
 +getId()
 +getVols()
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>105</y><w>50</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>90</y><w>50</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1..1
-m2=0..*</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>505</y><w>260</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m2=0..*</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>490</y><w>260</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=0..1
-m2=1..*</panel_attributes><additional_attributes>240;110;10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>315</y><w>260</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1..*</panel_attributes><additional_attributes>240;110;10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>300</y><w>260</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1..1
-m2=0..1</panel_attributes><additional_attributes>240;10;10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>70</x><y>105</y><w>370</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=0..1</panel_attributes><additional_attributes>240;10;10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>90</y><w>370</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1..1
 m2=1..1</panel_attributes><additional_attributes>350;170;10;170;10;10</additional_attributes></element></diagram>
